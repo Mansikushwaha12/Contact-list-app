@@ -1,0 +1,28 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}.login h1{
+    color: #000;
+}
+.login_card{
+    width: 400px;
+    height: 400px;
+    background-color:#000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: "San Serif";
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.login_card h1{
+    font-size: 60px;
+    color: #fff;
+}
